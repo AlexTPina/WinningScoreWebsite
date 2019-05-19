@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" type="text/css" href="score.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <div class="jumbotron bg-primary text-white">
+        <div class="row jumbotron-header">
+            <p class=>Score Keeper</p>
+        </div>
+        <div class="row jumbotron-subheader">
+            <p class=>The Easiest Way To Keep Score Online!!!</p>
+        </div> 
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-3 score-column home-team">
+                <div class="row score-display">
+                    <p><span id=p1Display>0</span></p>
+                </div>
+                <div class="row add-points-text">
+                    Add Points For:
+                </div>
+                <div class="row player-button">
+                    <button id="p1">Player One</button>
+                </div>
+            </div>
+            <div class="col playing-to-column">
+                <div class="row playing-to-header">
+                    <p>Winning Score!</p>
+                </div>    
+                <div class="row playing-to-number">
+                    <span id="winning-score-display">5</span>  
+                </div>
+                <div class="row playing-to-input">
+                    Playing to:
+                    <input type="number">
+                </div>
+            </div>
+            <div class="col-3 score-column away-team">
+                <div class="row score-display">
+                    <p><span id=p2Display>0</span></p>
+                </div>
+                <div class="row add-points-text">
+                    Add Points For:
+                </div>
+                <div class="row player-button">
+                    <button id="p2">Player Two</button>
+                </div>
+            </div>
+        </div>
+        <div class="row row-two">
+            <div class="col-3">
+                <div class="row player-name">
+                    Player One Name
+                    <input type="text" name="player-one-name">
+                </div>
+            </div>
+            <div class="col">
+                <div class="row reset-button">
+                    <button id="reset">Reset Score</button>
+                </div>        
+            </div>
+            <div class="col-3">
+                <div class="row player-name">
+                    Player Two Name
+                    <input type="text" name="player-one-name">
+                </div>
+            </div>
+        </div>
+    </div> 
+
+
+<script type="text/javascript" src="score.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

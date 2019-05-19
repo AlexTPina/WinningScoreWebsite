@@ -1,0 +1,70 @@
+
+.jumbotron-header {
+    justify-content: center;
+    font-size: 60pt;
+}
+
+.jumbotron-subheader {
+    justify-content: center;
+}
+.score-column {
+    justify-content: center;
+    border: 2px solid black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: lightgray
+}
+
+.home-team {
+    
+}
+
+.score-display {
+    justify-content: center;
+    padding-bottom: 30px;
+    font-size: 60pt;
+}
+
+.add-points-text {
+    justify-content: center;
+}
+.player-button {
+    justify-content: center;
+}
+
+.playing-to-number {
+    justify-content: center;
+    padding-bottom: 45px;
+    font-size: 40pt;
+}
+
+#winning-score-display {
+    
+}
+.playing-to-header {
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: px;
+    font-size: 20pt;
+}
+
+.playing-to-input {
+    justify-content: center;
+    padding-bottom: 30px;
+}
+.playing-to-button {
+    justify-content: center;
+}
+
+.reset-button {
+    justify-content: center;
+    padding-top: 50px;
+}
+.player-name {
+    justify-content: center;
+    padding-top: 30px;
+}
+.winner {
+    color: green;
+}
+
